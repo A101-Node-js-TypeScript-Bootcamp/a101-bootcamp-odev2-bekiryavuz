@@ -10,7 +10,7 @@ exports.fetchIdBrands = async (req,res) => {
     })
 }
 exports.fetchNameBrands = async (req,res) => {
-    const response = await getPage.fetchNameBrands();
+    const response = await getPage.fetchNameBrands(brandName);
     res.send({
         status : true
     })

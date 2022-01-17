@@ -4,8 +4,8 @@ exports.fetchIdBrands = async () =>{
     const response = await axios.get('https://api.trendyol.com/sapigw/brands');
     return response.data;
 }
-exports.fetchNameBrands = async () =>{
-    const response = await axios.get('https://api.trendyol.com/sapigw/product-categories');
+exports.fetchNameBrands = async (brandName) =>{
+    const response = await axios.get('https://api.trendyol.com/sapigw/brands/by-name?name={brandName}');
     return response.data;
 }/*
 exports.fetch = async () =>{
