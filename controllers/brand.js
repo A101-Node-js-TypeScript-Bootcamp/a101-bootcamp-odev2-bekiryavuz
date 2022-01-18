@@ -10,6 +10,14 @@ exports.fetchBrands = async (req,res) => {
         
     })
 }
+exports.fetchBrandsName = async (req,res) => {
+    const response = await getPage.fetchBrandsName(req.params.name);
+    res.send({
+        status : true,
+        data : response
+        
+    })
+}
 exports.fetchCategories = async (req,res) => {
     const response = await getPage.categories();
     res.send({
