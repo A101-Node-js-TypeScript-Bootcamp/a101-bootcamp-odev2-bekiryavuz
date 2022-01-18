@@ -13,6 +13,7 @@
     "express": "^4.17.2",
     "express-jwt": "^6.1.0",
     "git": "^0.1.5",
+    "joi": "^17.5.0",
     "jsonwebtoken": "^8.5.1"
   }
 }
