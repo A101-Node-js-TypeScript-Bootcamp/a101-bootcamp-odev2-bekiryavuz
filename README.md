@@ -10,9 +10,8 @@ npm install
 ```
 npx nodemon index.js
 ```
+
 ```
-node index.js
-```
-```
-http://localhost:3000/api
+http://localhost:3000/api/user
+http://localhost:3000/api/brand
 ```

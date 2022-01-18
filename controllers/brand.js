@@ -2,26 +2,25 @@ const getPage = require('../services/brand')
 
 
 
-exports.fetchIdBrands = async (req,res) => {
-    const response = await getPage.fetchIdBrands();
+exports.fetchBrands = async (req,res) => {
+    const response = await getPage.fetchBrands();
     res.send({
-        status : true
+        status : true,
+        data : response
         
     })
 }
-exports.fetchNameBrands = async (req,res) => {
-    const response = await getPage.fetchNameBrands(brandName);
-    res.send({
-        status : true
-    })
-}
 exports.fetchCategories = async (req,res) => {
+    const response = await getPage.categories();
     res.send({
-        status : true
+        status : true,
+        data : response
     })
 }
-exports.fetchCategory = async (req,res) => {
+exports.fetchSingleCategory = async (req,res) => {
+    const response = await getPage.singleCategory(req.params.id);
     res.send({
-        status : true
-    })
+        status : true,
+        data : response
+    })       
 }

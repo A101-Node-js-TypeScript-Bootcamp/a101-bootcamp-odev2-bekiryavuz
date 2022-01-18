@@ -1,16 +1,18 @@
-var express = require("express");
+const express = require("express");
 let router = express.Router();
 
 
-const apiRouter = require('./user/user')
+//directory
+const userRouter = require('./user/user')
 const brandRouter = require('./brand/brand')
 
 
-
-router.use('/user', apiRouter)
+//routes 
+router.use('/user', userRouter)
 router.use('/brand', brandRouter)
 
 
 
 
 module.exports = router;
+
