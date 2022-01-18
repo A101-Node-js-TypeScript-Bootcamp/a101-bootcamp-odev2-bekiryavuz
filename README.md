@@ -12,6 +12,8 @@ npx nodemon index.js
 ```
 
 ```
-http://localhost:3000/api/user
-http://localhost:3000/api/brand
+localhost:3000/api/brand/brands
+localhost:3000/api/brand/brands/:name
+localhost:3000/api/brand/categories
+localhost:3000/api/brand/category/:id
 ```
