@@ -7,7 +7,7 @@
 
 # Using Git (recommended)
 
-* Clone the project from github. Change "myproject" to your project name.
+* Clone the project from github. 
 
 ```
 $ git clone https://github.com/A101-Node-js-TypeScript-Bootcamp/a101-bootcamp-odev2-bekiryavuz.git
