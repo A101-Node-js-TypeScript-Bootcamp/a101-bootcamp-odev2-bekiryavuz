@@ -5,7 +5,7 @@
 
 ## How to install
 
-# Using Git (recommended)
+* Using Git (recommended)
 
 * Clone the project from github. 
 
