@@ -5,7 +5,7 @@ let brandController = require('../../controllers/brand')
 
 
 
-//pages
+//brand pages
 router.get('/brands', brandController.fetchBrands)
 router.get('/brands/:name', brandController.fetchBrandsName)
 router.get('/categories',brandController.fetchCategories)

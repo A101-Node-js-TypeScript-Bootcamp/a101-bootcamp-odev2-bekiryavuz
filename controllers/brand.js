@@ -1,7 +1,7 @@
 const getPage = require('../services/brand')
 
 
-
+//brand controller functions
 exports.fetchBrands = async (req,res) => {
     const response = await getPage.fetchBrands();
     res.send({
